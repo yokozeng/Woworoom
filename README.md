@@ -1,7 +1,7 @@
 # WOWOROOM窩窩家居 單頁電商網站
 
-> 前台 Demo: https://yokozeng.github.io/Woworoom/
-> 後台 Demo: https://yokozeng.github.io/woworoomshop/
+- 前台 Demo: https://yokozeng.github.io/Woworoom/
+- 後台 Demo: https://yokozeng.github.io/woworoomshop/
 
 ## 使用技術
 
