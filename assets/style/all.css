@@ -11704,7 +11704,10 @@ h6, .h6, .h6 {
   height: 100%;
 }
 
-/* mixin */
+.overflowXHidden {
+  overflow-x: hidden;
+}
+
 /* base */
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
@@ -11780,6 +11783,10 @@ body {
   border-radius: 8px;
 }
 
+.bedAdvantage-text {
+  text-shadow: 2px 2px 8px #212529;
+}
+
 /*========== 家具比較 ==========*/
 .compare-table {
   width: 65%;
@@ -11835,6 +11842,10 @@ body {
   margin-bottom: 20px;
 }
 
+.gallery-bottom {
+  margin-bottom: 8px;
+}
+
 .recommendation-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11842,6 +11853,13 @@ body {
   margin-left: 30px;
   min-width: 350px;
   background-color: #fff;
+  border-radius: 8px;
+  -webkit-box-shadow: 2px 2px 8px 0px #d5d5d5;
+          box-shadow: 2px 2px 8px 0px #d5d5d5;
+}
+
+.recommendation-card img {
+  border-radius: 8px 0px 0px 8px;
 }
 
 .recommend-content {

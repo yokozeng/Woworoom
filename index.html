@@ -16,6 +16,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+    <!-- c3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.7.18/c3.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="./assets/style/all.css">
   </head>
 
@@ -50,6 +53,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#orderInfo">立即預訂</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://yokozeng.github.io/woworoomshop/">去後台</a>
+        </li>
       </ul>
     </div>
 
@@ -76,19 +82,19 @@
       <li class="col-12 col-sm-4">
         <div class="d-flex justify-content-center align-items-center">
           <img class="bedAdvantage-img" src="https://i.imgur.com/nK9FAFD.png" alt="可拆洗床套">
-          <h5 class="text-center text-white position-absolute">可拆洗床套</h5>
+          <h5 class="bedAdvantage-text text-center text-white position-absolute">可拆洗床套</h5>
         </div>
       </li>
       <li class="col-12 col-sm-4">
         <div class="d-flex justify-content-center align-items-center">
           <img class="bedAdvantage-img" src="https://i.imgur.com/9PFpjUd.png" alt="頂級乳膠墊">
-          <h5 class="text-center text-white position-absolute">頂級乳膠墊</h5>
+          <h5 class="bedAdvantage-text text-center text-white position-absolute">頂級乳膠墊</h5>
         </div>
       </li>
       <li class="col-12 col-sm-4">
         <div class="d-flex justify-content-center align-items-center">
           <img class="bedAdvantage-img" src="https://i.imgur.com/puYFiGz.png" alt="長纖獨立筒">
-          <h5 class="text-center text-white position-absolute">長纖獨立筒</h5>
+          <h5 class="bedAdvantage-text text-center text-white position-absolute">長纖獨立筒</h5>
         </div>
       </li>
     </ul>
@@ -340,71 +346,6 @@
             <option value="窗簾">窗簾</option>
         </select>
         <ul class="productList d-flex flex-wrap">
-<!--             <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/dp6gW6u5hkUxxCuNi8RjbfgufygamNzdVHWb15lHZTxqZQs0gdDunQBS7F6M3MdegcQmKfLLoxHGgV3kYunUF37DNn6coPH6NqzZwRfhbsmEblpJQLqXLg4yCqUwP3IE.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/B87OUPkvlBvBl7Wyv3xj9ErOazczyGO8AFM5Nll38yEUvXMJHFXnid4g9YMzJOMq6t54ucmfgO4p7xw1azkleNYyhkEIINs8zJNbCPz1JUAZwaTKqIkaVQ3mRo2VBzAH.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/tTQQggBAfhl0vEeM7WmTwij1JbAwC7MBD2TSyjHbZHvBjnLU5tOtoGszOmODOEu6DRjzdjIpcEzeCCkmRWaL8JDJwaaWglER7P3V4JXKT7FT5gm0UL45CaHpSVlEXbKK.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/xgI6wM3uUCpkEEcauvHs67BFjGqG6Qxa9JTfOZTys6C0yJjqw5c8nJuA31gX77YVf04kZotGP9ZFQU7hLXkuoaRwNSssScpFnzfyPzYKODuyhw2QJrT1bDSim7aOBryv.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/Zr4h1Oqvc6NtAnpe5pNqJfGYyBJshAlKctfv0BTAZBqVAuvfSAWk4bcidBd8qBu1lRn5TWvib6O3UbmIAEt5w8SdB94GuFplZn6IM4SBvtxWJA2VnOqvQOsKungCPDXv.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/Tx99wDepg56aO5dGH7uGpU7REZwQLd1W0ec43M6cFw3o3z4eXTbeovq8WVseZ476BntlQnPPzaqkZgoj7xITviHMqf0kiAetjxyvuLiTmr7WdulcL364MTL321qZRJkP.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/VYPOpg83Jg7Ft5raI0eyzs6xSz0ttKzSJSklFq7il0HdwJ1iQ9kLHAU19rmkSapmyzRErTm1sxWO725W7CnowkRjwxgSyyRBo1ihGLwNbfYtgbo2nCTY9sarjqoxQbYX.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li>
-            <li class="productCard">
-                <h4 class="productType">新品</h4>
-                <img src="https://hexschool-api.s3.us-west-2.amazonaws.com/custom/XWnC8Of71WeSvCbkGy5MvZSyCrim50F9njuwHypcbiimd8tWscxGdecRAyaNheboQkqQAiCWK12GwuwMBvEtAarU2Y7mKTwKZIqhIExyQzbAbls7NTOdN2vX1OAyEaAN.png" alt="">
-                <a href="#" class="addCardBtn">加入購物車</a>
-                <h3>Antony 雙人床架／雙人加大</h3>
-                <del class="originPrice">NT$18,000</del>
-                <p class="nowPrice">NT$12,000</p>
-            </li> -->
         </ul>
     </div>
     </div>
@@ -463,7 +404,7 @@ clear
     </div>
 
 <!-- 填寫訂單 -->
-<div class="orderInfo mt-5" id="orderInfo" style="background-color: #fff;">
+<div class="orderInfo mt-5 mb-5" id="orderInfo" style="background-color: #fff;">
   <div class="wrap">
     <h3 class="section-title text-center mb-5">填寫預訂資料</h3>
     <form action="" class="addTicket-form">
@@ -519,16 +460,18 @@ clear
 
 
 
-
-
-
-
-
+    
 </div>
 
 
     <footer class="footer">
-      footer
+      <div class="pt-4 pb-4" style="background-color: #F1F1F1;">
+        <div class="container-fluid text-dark wrap">
+          <p class="text-center">© 2021 WOWOROOM.All Rights Reserved.</p>
+          </div>
+      
+        </div>
+      </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
